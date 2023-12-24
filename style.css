@@ -655,9 +655,7 @@ form textarea {
 }
 
 @media (max-width: 600px) {
-  .home {
+  body {
     width: 100%;
-    background-size: cover;
-    background-position: -400px 1px;
   }
 }
