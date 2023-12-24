@@ -485,6 +485,11 @@ form textarea {
     overflow-x: hidden;
   }
 
+  .home {
+    background-size: cover;
+    background-position: center;
+  }
+
   .home-text h3 {
     font-size: 40px;
   }
@@ -506,7 +511,7 @@ form textarea {
 
   .home {
     background-size: cover;
-    background-position: 0 1px;
+    background-position: center;
   }
 
   .about {
@@ -594,7 +599,7 @@ form textarea {
 
   .home {
     background-size: cover;
-    background-position: -200px 1px;
+    background-position: center;
   }
 
   #menu-icon {
@@ -642,9 +647,8 @@ form textarea {
   }
 
   .home {
-    width: 100%;
     background-size: cover;
-    background-position: -300px 1px;
+    background-position: center;
   }
 
   .contact {
@@ -684,5 +688,11 @@ form textarea {
   body {
     width: 100%;
     overflow-x: hidden;
+  }
+
+  .home {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
   }
 }
